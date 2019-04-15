@@ -16,4 +16,7 @@ if (option == 1) {
 } else if (option == 4) {
   var answerMultiply = Number(choice1) * Number(choice2);
   prompt("The answer is " + answerMultiply)
+} else {
+  var answerSum = Number(choice1) + Number(choice2);
+  prompt("The answer is " + answerSum + ", addition was chosen automatically as the last option was left blank.");
 }
