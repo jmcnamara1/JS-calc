@@ -1,8 +1,12 @@
 // prompt("This ")
-var option = prompt("Would you like to add(1), subtract(2), divide(3), multiply(4), power(5) or square-root(6), please enter a number.");
+var option = prompt("Would you like to add(1), subtract(2), divide(3) or multiply(4), if you would like more options please press enter.");
+// Added clearer options
+if (option == "") {
+  var option = prompt("Would you like to  power(5) or square-root(6), please enter a number.");
+}
 
 var choice1 = prompt("Please type the first number you would like to use in the calculation");
-
+// Removes the 2nd number option from the sqrt
 if (option != 6) {
   var choice2 = prompt("Please type the second number you would like to use below");
 }
