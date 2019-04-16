@@ -14,8 +14,7 @@ while (freedom == "yes") {
   if (option != 6) {
     var choice2 = prompt("Please type the second number you would like to use below");
   }
-
-
+  
   if (option == 1) {
     var answerSum = Number(choice1) + Number(choice2);
     alert("The answer is " + answerSum);
